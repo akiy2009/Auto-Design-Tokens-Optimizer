@@ -1,1 +1,26 @@
-package
+{
+  "name": "css-desiger-",
+  "version": "1.0.0",
+  "description": "Automatically optimize design tokens and adjust contrast/hue/lightness for accessibility and UI consistency.",
+  "main": "src/index.js",
+  "type": "module",
+  "keywords": [
+    "design tokens",
+    "postcss",
+    "contrast",
+    "color",
+    "accessibility",
+    "css",
+    "hue adjust",
+    "a11y"
+  ],
+  "author": "akiy2009",
+  "license": "MIT",
+  "dependencies": {
+    "postcss": "^8.4.38"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./postcss": "./src/postcss-plugin.js"
+  }
+}
