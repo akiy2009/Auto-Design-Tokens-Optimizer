@@ -95,5 +95,3 @@ export default function plugin(opts: PluginOptions = {}) {
     }
   };
 }
-
-export const postcss = true;

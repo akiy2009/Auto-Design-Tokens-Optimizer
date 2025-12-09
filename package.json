@@ -1,5 +1,5 @@
 {
-  "name": "auto-design-tokens-optimizer",
+  "name": "@akiy2009/auto-design-tokens-optimizer",
   "version": "1.0.0",
   "description": "Design-token-first color utilities + robust CLI. Normalize tokens, generate scales, support alpha blending and PostCSS plugin. CLI: adt-optimize.",
   "main": "dist/cjs/index.cjs.js",
@@ -8,7 +8,9 @@
   "bin": {
     "adt-optimize": "dist/bin/adt-optimize.cjs"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "clean": "rm -rf dist",
     "build": "rollup -c",
@@ -16,19 +18,26 @@
     "test": "node dist/test/example.cjs.js || node dist/test/example.esm.js",
     "lint": "echo \"no lint configured\""
   },
-  "keywords": ["design-tokens","postcss","contrast","accessibility","color","cli"],
+  "keywords": [
+    "design-tokens",
+    "postcss",
+    "contrast",
+    "accessibility",
+    "color",
+    "cli"
+  ],
   "author": "akiy2009",
   "license": "Apache License 2.0",
   "dependencies": {
-    "postcss": "^8.4.38",
+    "postcss": "^8 || ^9",
     "postcss-value-parser": "^4.2.0"
   },
   "devDependencies": {
-    "rollup": "^3.0.0",
-    "@rollup/plugin-node-resolve": "^15.0.0",
     "@rollup/plugin-commonjs": "^26.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^10.0.0",
-    "rollup-plugin-terser": "^7.0.2",
+    "rollup": "^3.0.0",
     "typescript": "^5.0.0"
   },
   "peerDependencies": {
