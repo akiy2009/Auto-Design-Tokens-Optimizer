@@ -1,5 +1,5 @@
 {
-  "name": "css-desiger-",
+  "name": "css-desiger",
   "version": "1.0.0",
   "description": "Automatically optimize design tokens and adjust contrast/hue/lightness for accessibility and UI consistency.",
   "main": "src/index.js",
