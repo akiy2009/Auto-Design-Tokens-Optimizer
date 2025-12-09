@@ -1,6 +1,6 @@
 # Auto Design Tokens Optimizer  
 _デザイントークン自動最適化ツール_  
-**パッケージ名:** `@gakuseibot/auto-design-tokens-optimizer`
+**パッケージ名:** `@akiy2009/auto-design-tokens-optimizer`
 
 ---
 
@@ -38,7 +38,7 @@ CLI と PostCSS プラグインのどちらでも利用できます。
 npm からインストール：
 
 ```sh
-npm install @gakuseibot/auto-design-tokens-optimizer
+npm install @akiy2009/auto-design-tokens-optimizer
 ```
 npx で即実行：
 
