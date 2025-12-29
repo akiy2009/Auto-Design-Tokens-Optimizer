@@ -2,6 +2,7 @@
 _デザイントークン自動最適化ツール_  
 **パッケージ名:** `@akiy2009/auto-design-tokens-optimizer`
 
+![ICON](images/download_file_1766990723535.png)
 ---
 
 ## ✨ 概要
