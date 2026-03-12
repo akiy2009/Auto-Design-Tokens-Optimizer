@@ -1,5 +1,5 @@
 {
-  "name": "@akiy2009/auto-design-tokens-optimizer",
+  "name": "@akiy2009/token-forge",
   "version": "1.0.0",
   "description": "Design-token-first color utilities + robust CLI. Normalize tokens, generate scales, support alpha blending and PostCSS plugin. CLI: adt-optimize.",
   "main": "dist/cjs/index.cjs.js",
