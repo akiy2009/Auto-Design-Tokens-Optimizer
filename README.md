@@ -1,14 +1,13 @@
-# Auto Design Tokens Optimizer  
+# Token Forge
 _デザイントークン自動最適化ツール_ 
 
-![ICON](images/download_file_1766990723535.png)
 
-### **パッケージ名:** `@akiy2009/auto-design-tokens-optimizer`
+### **パッケージ名:** `@akiy2009/token-forge`
 ---
 
 ## ✨ 概要
 
-**Auto Design Tokens Optimizer** は、デザイントークンを自動で最適化し、  
+**Token Forge** は、デザイントークンを自動で最適化し、  
 背景色に合わせたコントラスト調整・色相/明度/彩度の微調整により、  
 一貫性がありアクセシブルな UI カラーを生成する軽量ツールです。
 
@@ -40,7 +39,7 @@ CLI と PostCSS プラグインのどちらでも利用できます。
 npm からインストール：
 
 ```sh
-npm install @akiy2009/auto-design-tokens-optimizer
+npm install @akiy2009/token-forge
 ```
 npx で即実行：
 
@@ -120,9 +119,9 @@ bin/
 このプロジェクトは Apache License 2.0 の下で公開されています。
 
 ## 📬 連絡先
-改善案・バグ報告・Pull Request などはお気軽にどうぞ。
-Email: akiy2009_dev@outlook.jp
-Discord: @aki._.yama
+改善案・バグ報告・Pull Request などはお気軽にどうぞ。  
+Email: akiy2009_dev@outlook.jp  
+Discord: @aki._.yama  
 
 ## ⭐ サポート
 良いと思ったら GitHub リポジトリにスターをお願いします！
